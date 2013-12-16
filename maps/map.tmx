@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="31" height="21" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Tiles" tilewidth="32" tileheight="32">
+  <image source="../img/Tiles.png" width="320" height="352"/>
+  <tile id="7">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="door" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Floor" width="31" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwlYAbE1CRgfIMUcEHYBYlcSMD5AijmuQ8xufGFIrBthgFS7qRE+w8FuSsCo3bSzm1plCzl249I7lO0mptymld2U4JFqtx8Q+w8QBgAJY20N
+  </data>
+ </layer>
+ <layer name="Wall" width="31" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztVNEKgCAQ89l/yh6zx+z//yUDhUPaqeWZUINxsGDDQdNKKV3JK9R6nJw853ANIdK4bFPoEbXFcw3XEiKNy7aFHlHbPPdwHSHSuA5doUfUapF2SLuURtoh7VIaaYe0y1Fw919tlf0WNLlS7855c5vTIjv3HW1Oi+wc0eY8BdqaHpuDtqbH5qCtGXFzfnwXB3LBKbU=
+  </data>
+ </layer>
+ <layer name="Item" width="31" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8QIRIMVqbMQoGHxAeQLvVB9DuUTD4wWj5Ql2AHp6j4TsKRsHAAwCQWwDH
+  </data>
+ </layer>
+ <layer name="META" width="31" height="21">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4CARYwOkmkEuHql209IP+AA1zaLEbs4RZDexgBbxPWo38XaQaje6PCcUD3e7iQXDPU0NRrtHwSggFgAAXJUHbw==
+  </data>
+ </layer>
+</map>

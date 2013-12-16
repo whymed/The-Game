@@ -1,0 +1,20 @@
+<NotepadPlus>
+    <Project name="The Game">
+        <File name="conf.lua" />
+        <File name="main.lua" />
+        <File name="ents.lua" />
+        <Folder name="lib">
+            <File name="lib\anim8.lua" />
+            <File name="lib\class.lua" />
+            <File name="lib\TEsound.lua" />
+            <File name="lib\TLfres.lua" />
+            <Folder name="ATL">
+                <File name="lib\ATL\Loader.lua" />
+                <File name="lib\ATL\Collider.lua" />
+            </Folder>
+        </Folder>
+        <Folder name="maps">
+            <File name="maps\map.tmx" />
+        </Folder>
+    </Project>
+</NotepadPlus>
